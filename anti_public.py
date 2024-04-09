@@ -15,9 +15,9 @@ def batch_read_and_process(file_obj, batch_size=1000):
 
 def main():
     base_dir = r'Your Folbider'
-    s_file_path = os.path.join(base_dir, 'file.txt')
-    profiles_file_path = os.path.join(base_dir, '2file.txt')
-    output_file_path = os.path.join(base_dir, 'outputfile.txt')
+    s_file_path = os.path.join(base_dir, 'the name of the file with the lines that are the main ones.txt')
+    profiles_file_path = os.path.join(base_dir, 'the name of the file with the lines that are secondary.txt')
+    output_file_path = os.path.join(base_dir, 'the name of the source file with strings.txt')
 
     with open(s_file_path, "r") as s_file, \
             open(profiles_file_path, "r") as profiles_file, \
