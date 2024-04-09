@@ -14,10 +14,10 @@ def batch_read_and_process(file_obj, batch_size=1000):
         yield batch
 
 def main():
-    base_dir = r'C:\Users\Golyb0u\Desktop\PYTHON_WORK\ANTI_PUBLIC'
-    s_file_path = os.path.join(base_dir, '1.txt')
-    profiles_file_path = os.path.join(base_dir, '2.txt')
-    output_file_path = os.path.join(base_dir, 'output.txt')
+    base_dir = r'Your Folbider'
+    s_file_path = os.path.join(base_dir, 'file.txt')
+    profiles_file_path = os.path.join(base_dir, '2file.txt')
+    output_file_path = os.path.join(base_dir, 'outputfile.txt')
 
     with open(s_file_path, "r") as s_file, \
             open(profiles_file_path, "r") as profiles_file, \
